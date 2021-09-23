@@ -1,0 +1,93 @@
+body {
+    overflow: hidden;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-image: linear-gradient(to right top, #5f27cd, #6133d2, #633dd7, #6547dc, #6850e1, #4d69ef, #2d7ff9, #0092ff, #00b1ff, #00cdff, #00e5fd, #5ffbf1);
+    align-items: center;
+    justify-content: center;
+}
+
+.form-div {
+    width: 500px;
+    height: 650px;
+    border-radius: 40px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0.9;
+}
+
+.title-h3 {
+    position: absolute;
+    margin-bottom: 520px;
+    font-size: 2rem;
+    font-family: "Poppins SemiBold", sans-serif;
+}
+
+.div-main {
+    margin-top: 80px;
+}
+
+.label-p {
+    margin-left: -10px;
+}
+
+#fullname {
+    width: 290px;
+    margin-left: 20px;
+}
+
+#email {
+    width: 290px;
+    margin-left: 58px;
+}
+
+#subject {
+    width: 290px;
+    margin-left: 44px;
+}
+
+#message {
+    margin-left: 34px;
+}
+
+.message-alert {
+    width: 300px;
+    height: 40px;
+    margin-left: 136px;
+    display: flex;
+    position: absolute;
+    margin-top: -57px;
+}
+
+.success {
+    width: 300px;
+    height: 35px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #00ab43;
+    color: white;
+}
+
+.error {
+    width: 300px;
+    height: 35px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #dc0000;
+    color: white;
+}
